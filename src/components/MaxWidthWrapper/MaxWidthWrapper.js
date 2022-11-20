@@ -10,9 +10,14 @@ const MaxWidthWrapper = styled.div`
   padding-left: 16px;
   padding-right: 16px;
 
-  @media ${QUERIES.laptopAndUp} {
+  @media ${QUERIES.tabletAndUp} {
     padding-left: 32px;
     padding-right: 32px;
+  }
+
+  @media(${QUERIES.laptopAndUp}) {
+    padding-left: 120px;
+    padding-right: 120px;
   }
 `;
 
